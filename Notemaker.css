@@ -1,0 +1,192 @@
+ body{
+      font-family: "coming soon";
+      background-color: #A0B9C6;
+    }
+    .textInput
+    {
+      padding: 10px 20px 10px 20px;
+      width: 250px;
+      height: 150px;
+      resize: none;
+      margin: 0px;
+      text-align: center;
+      border: none;
+      font-size: 16px;
+        background-color: #fff176;
+    }
+    .addButton
+    {
+      background-color: #1C1C1C;
+      color: white;
+      padding: 12px 20px 12px 20px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 2px solid white;
+      font-family: "coming soon";
+    }
+
+    .addButton:active
+    {
+      
+      padding: 10px 18px 10px 18px;
+      opacity: 80%;
+      
+    }
+
+
+.noteInput
+{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
+  margin-left: 20px;
+  margin-top: 0px;
+  height: 250px;
+  
+  text-align: center;
+}
+
+
+
+.pin
+{
+  width: 250px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+    background-color: #fff176;
+}
+
+.titleInput
+{
+  text-align: center;
+  width: 250px;
+  height: 10px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 0px;
+  border: 1px solid transparent;
+  font-family: "coming soon";
+  font-weight: bolder;
+  background-color: #fff176;
+}
+
+.titleInput:focus,.textInput:focus
+{
+  
+  outline: none;
+}
+
+.stickyNote
+{
+  border: 4px solid black;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 5px 10px 5px 10px;
+  font-size: 13px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  position: relative;
+  margin: 0px 0px 0px 0px;
+   transform: rotate(-2deg);
+   font-weight: 600;
+   
+}
+
+.pinBoard
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+ 
+ column-gap: 30px;
+ row-gap: 25px;
+background-color: #2E8B57;
+padding: 20px 10px 20px 10px;
+border-radius: 10px;
+border: 8px solid #A0522D;
+min-height: 250px;
+max-width: 100%;
+min-width: 270px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+
+.createdDate
+{
+  position: absolute;
+  color:#4B4B4B;
+  bottom: 4px;
+  right: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  
+}
+
+.title
+{
+  font-weight:bolder;
+  color: black;
+  font-size: 13px;
+}
+
+.removeButton
+{
+ background-color: transparent;
+ border: none;
+ font-size: 20px;
+}
+
+
+.mainTitle
+{
+  border: 5px solid#F8BBD0;
+  background-color: #1C1C1C;
+  color: #FFCC80;
+  width: max-content;
+  border-radius: 10px;
+  padding: 20px 40px 20px 40px;
+  margin-bottom: 20px;
+}
+
+.input-main-div
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  background-color: #1C1C1C;
+  border: 10px solid #8B5A2B;
+  margin-bottom: 20px;
+  min-height: 290px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  color: white;
+  font-family: "coming soon";
+  justify-content: center;
+}
+
+.colorAndButton
+{
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+
+.colorInput
+{
+  text-align:center;
+}
+
+
+.instructions
+{
+  border: 5px solid #CE93D8;
+  padding: 20px 40px 20px 40px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin-bottom: 20px;
+}

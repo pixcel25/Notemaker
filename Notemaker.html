@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notemaker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="Notemaker.css">
+
+</head>
+<body>
+  <div class="input-main-div">
+  <div class="mainTitle">
+  <h1 style="text-align: center;" >Notemaker</h1>
+    </div>
+
+    
+  <div class="noteInput">
+  <p class="pin">⚫</p>
+  <input placeholder="Enter Title" class="titleInput" type="text" id="title" maxlength="12">
+  <textarea type="paragraph" id="innerText" class="textInput" placeholder="Enter Text"  maxlength="120">hi</textarea>
+
+    </div> 
+
+
+<div class="colorAndButton">
+    <div class="colorInput"> 
+      <div style="text-align: left;">
+      <h2>Select sticky note color</h2>
+      <label class="colorOptionLabel">
+        <input class="colorOption" type="radio" value="1" name="color" onclick="changeColor(0);">Red<br>
+      </label>
+      <label class="colorOptionLabel">
+        <input class="colorOption" type="radio" value="2" name="color" checked onclick="changeColor(1);"  >Yellow<br>
+      </label>
+      <label class="colorOptionLabel">
+        <input class="colorOption" type="radio" value="3" name="color" onclick="changeColor(2);" >Blue<br>
+      </label>
+      <label class="colorOptionLabel">
+        <input class="colorOption" type="radio" value="4" name="color" onclick="changeColor(3);" >Green<br>
+      </label>
+    
+
+ <button class="addButton" onclick="addNote()">Add</button></div></div></div>
+
+<div class="instructions">
+  <h2 style="color:#4FC3F7;">Instructions</h1>
+    hello!! <br>
+    Welcome to Notemaker <br>
+    craft simple sticky notes <br>
+    once done click the add button to pin the note.<br>
+    unpin a note by clicking the pin ⚫ on the note.<br>
+    created by pixcel25 
+</div>
+
+</div>
+
+<div class="pinBoard"></div>
+<footer>V 1.3.0</footer>
+
+
+</body>
+
+<script src="Notemaker.js"></script>
+
+</html>
+
+<!-- 🟥 Red sticky note → #FF6B6B
+
+🟨 Yellow sticky note → #FFF176
+
+🟦 Blue sticky note → #4FC3F7
+
+🟩 Green sticky note → #81C784
+
+⚫-->
