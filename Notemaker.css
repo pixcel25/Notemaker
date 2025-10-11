@@ -186,8 +186,10 @@ min-width: 270px;
 .instructions
 {
   border: 5px solid #CE93D8;
-  padding: 20px 40px 20px 40px;
+  padding: 10px 30px 10px 30px;
   border-radius: 5px;
   max-width: 300px;
   margin-bottom: 20px;
+  max-height: 300px;
+  font-weight: bold;
 }
